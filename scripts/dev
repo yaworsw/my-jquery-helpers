@@ -1,0 +1,8 @@
+#! /bin/env sh
+
+npm install && (
+  gnome-terminal -x gulp watch &
+  gnome-terminal -x testem &
+  gnome-terminal -x gulp watch:lint &
+)
+wait

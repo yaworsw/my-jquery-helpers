@@ -1,0 +1,9 @@
+{
+  "name": "my-jquery-helpers",
+  "dependencies": {
+    "jquery":         ">=1.7.0"
+  },
+  "devDependencies": {
+    "jasmine.async":  "0.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "my-jquery-helpers",
+  "description": "A collection of jQuery utilities I've found useful",
+  "version": "0.1.0",
+  "author": "Will Yaworsky <will.yaworsky@gmail.com>",
+  "scripts": {
+
+  },
+  "devDependencies": {
+    "gulp":             "3.6.2",
+    "gulp-browserify":  "0.5.0",
+    "gulp-jshint":      "1.5.5",
+    "gulp-rename":      "1.2.0",
+    "gulp-uglify":      "0.2.1",
+    "jshint-stylish":   "0.1.5"
+  }
+}

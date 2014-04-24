@@ -1,0 +1,20 @@
+{
+  "framework": "jasmine",
+  "src_files": [
+    "src/**/*"
+  ],
+  "serve_files": [
+    "bower_components/jasmine.async/src/jasmine.async.js",
+
+    "bower_components/jquery/jquery.js",
+    "bower_components/jquery/dist/jquery.js",
+
+    "temp/browserified-tests.js"
+  ],
+  "launch_in_dev": [
+    "Chrome",
+    "Firefox"
+  ],
+  "before_tests": "mkdir -p ./temp && find ./src -name *.spec.js | xargs browserify -o temp/browserified-tests.js",
+  "on_exit": "rm temp/browserified-tests.js"
+}

@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+cd "$(dirname "$0")/../.."
+
+gulp lint && gulp build && git add ./dist
